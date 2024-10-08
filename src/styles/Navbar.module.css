@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.subcontainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 25px;
+}
+
+.heading {
+  color: rgb(93, 93, 227);
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.username img {
+  height: 25px;
+}
+
+#ex4 .p1[data-count]:after {
+  position: absolute;
+  right: 10%;
+  top: 8%;
+  content: attr(data-count);
+  font-size: 40%;
+  padding: 0.2em;
+  border-radius: 50%;
+  line-height: 1em;
+  color: white;
+  background: rgba(255, 0, 0, 0.85);
+  text-align: center;
+  min-width: 18px;
+}
+
+#ex4 .fa-stack {
+  width: 1.5em;
+}

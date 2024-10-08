@@ -1,0 +1,99 @@
+/* .main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0 20px;
+  box-sizing: border-box;
+} */
+
+.productCard {
+  background: #fff;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+
+  margin: 15px;
+}
+
+.productCard.left {
+  flex: 1;
+  padding: 5px;
+}
+
+.productCard .right {
+  position: relative;
+  flex: 10;
+}
+.productCard .left img {
+  height: 200px;
+  margin: 25px;
+}
+
+.productCard .title {
+  margin-top: 35px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.productCard .price {
+  /* margin-top: 20px; */
+  padding: 0 20px;
+  font-weight: 500;
+  color: rgb(0, 75, 0);
+}
+
+.productCard .rating {
+  display: flex;
+  align-items: center;
+}
+
+.productCard .rating img {
+  margin-left: 10px;
+}
+.productCard .stars {
+  width: 20px;
+  height: 20px;
+  margin-left: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.productCard .details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0 20px;
+  bottom: 15px;
+  right: 5px;
+}
+.productCard .details p {
+  /* width: 50%; */
+  margin-left: 30%;
+}
+
+.productCard .details img {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: center; */
+  height: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-top: 150px;
+}
+
+.productCard .increase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  gap: 20px;
+}
+
+.increase img {
+  height: 20px;
+}
